@@ -1,0 +1,16 @@
+Oracle Source Manager
+Current version - 1.0.12 (24 Jan 2012)
+
+A small and simple application which helps manage Oracle source code.
+Key features:
+	- saves source code in files
+	- generates deployment scripts
+	- has flexible configuration
+
+Client - console application written in C#
+Server - configuration tables and PL/SQL package
+
+For the most part, server uses dbms_metadata to obtain source code.
+When there was a bug or unsuitable behavior, I preferred generating code by myself (e.g. views and sequences).
+
+Source Manager is being used successfully with Oracle 10g, 11g.
